@@ -1,0 +1,31 @@
+{
+  "name": "think-graphql-middleware",
+  "version": "1.0.0",
+  "description": "A ThinkJS middleware that handles GraphQL queries, built atop apollo-server-core",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint --fix index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NimitzDEV/thinkjs-graphql.git"
+  },
+  "keywords": [
+    "thinkjs",
+    "graphql"
+  ],
+  "author": "NimitzDEV",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/NimitzDEV/thinkjs-graphql/issues"
+  },
+  "homepage": "https://github.com/NimitzDEV/thinkjs-graphql#readme",
+  "dependencies": {
+    "apollo-server-core": "^2.0.0",
+    "graphql": "^0.13.2"
+  },
+  "devDependencies": {
+    "eslint": "^5.2.0",
+    "eslint-config-think": "^1.0.2"
+  }
+}
